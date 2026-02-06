@@ -42,11 +42,11 @@ export function VslSection() {
               preload="metadata"
             >
               <source
-                src="https://r2.e-z.host/4a60e094-fe51-4af7-9cdf-73215f20d87e/enk9dtw6.mov"
+                src="https://r2.e-z.host/4a60e094-fe51-4af7-9cdf-73215f20d87e/ke9fb9uk.mov"
                 type="video/quicktime"
               />
               <source
-                src="https://r2.e-z.host/4a60e094-fe51-4af7-9cdf-73215f20d87e/enk9dtw6.mov"
+                src="https://r2.e-z.host/4a60e094-fe51-4af7-9cdf-73215f20d87e/ke9fb9uk.mov"
                 type="video/mp4"
               />
               Seu navegador nao suporta este video.
