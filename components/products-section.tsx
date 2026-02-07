@@ -20,7 +20,7 @@ const products = [
   {
     id: "painel-android",
     name: "Painel Uriel - Android",
-    price: 12.9,
+    price: 9.9,
     originalPrice: 79.9,
     image: "https://i.ibb.co/vMG8xRc/Natal-android.jpg",
     features: [
@@ -35,7 +35,7 @@ const products = [
   {
     id: "painel-iphone",
     name: "Painel Uriel - iPhone",
-    price: 19.9,
+    price: 9.9,
     originalPrice: 89.9,
     image: "https://i.ibb.co/nN1Rcsx0/Natal-iphone-rage.jpg",
     features: [
