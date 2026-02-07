@@ -1,4 +1,5 @@
 import React from "react"
+import Script from "next/script"
 import type { Metadata, Viewport } from "next"
 import { Inter, Space_Grotesk } from "next/font/google"
 
@@ -37,6 +38,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={`${inter.variable} ${spaceGrotesk.variable}`}>
+      <head>
+        <Script id="utmify-pixel" strategy="afterInteractive">
+          {`
+            window.pixelId = "6987c267c4fb9b7e8c2a8494";
+            (function () {
+              var a = document.createElement("script");
+              a.async = true;
+              a.defer = true;
+              a.src = "https://cdn.utmify.com.br/scripts/pixel/pixel.js";
+              document.head.appendChild(a);
+            })();
+          `}
+        </Script>
+      </head>
+
       <body className="font-sans antialiased">{children}</body>
     </html>
   )
